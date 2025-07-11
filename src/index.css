@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.6);
+  }
+}
+
+/* Custom utility classes */
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-glowPulse {
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Particle container */
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Neon glow effect */
+.neon-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+/* Custom gradient text */
+.gradient-text {
+  background: linear-gradient(45deg, #00ffff, #00ff9f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
