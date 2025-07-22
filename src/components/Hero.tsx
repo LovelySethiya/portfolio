@@ -56,13 +56,11 @@ const Hero: React.FC = () => {
             <div className="w-80 h-80 rounded-full bg-gradient-to-r from-cyan-500 to-green-400 p-1">
               <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-green-400/20 flex items-center justify-center">
-  <img 
-    src="/pfp.jpg" 
-    alt="Lovely Sethiya" 
-    className="w-full h-full object-cover"
-  />
-</div>
-
+                  <img 
+                  src="/pfp.jpg"
+                  className="w-full h-full object-cover"
+                  />
+                  </div>
               </div>
             </div>
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/20 to-green-400/20 blur-xl animate-pulse"></div>
