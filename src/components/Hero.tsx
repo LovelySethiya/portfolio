@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                   </div>
               </div>
             </div>
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/20 to-green-400/20 blur-xl animate-pulse"></div>
+           
           </div>
         </div>
       </div>
