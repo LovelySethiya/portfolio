@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-green-400/20 flex items-center justify-center">
   <img 
-    src="/your-image.jpg" 
+    src="/pfp.jpg" 
     alt="Lovely Sethiya" 
     className="w-full h-full object-cover"
   />
