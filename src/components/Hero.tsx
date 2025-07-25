@@ -1,6 +1,7 @@
 import React from 'react';
 import { Download, Mail, Github, Linkedin, Phone, MapPin } from 'lucide-react';
 import GlassCard from './GlassCard';
+import profileImg from '../assets/profile.jpg';
 
 const Hero: React.FC = () => {
   return (
@@ -57,8 +58,9 @@ const Hero: React.FC = () => {
               <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-green-400/20 flex items-center justify-center">
                   <img 
-                  src="/pfp.jpg"
-                  className="w-full h-full object-cover"
+                  src={profileImg}
+                  className="w-full h-full object-cover object-center"
+                  style={{ objectPosition: 'center 40%' }}
                   />
                   </div>
               </div>
